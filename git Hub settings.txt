@@ -1,0 +1,10 @@
+git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+if repo exit, then remove it
+rm -rf .git
+
+create a new one
+PS D:\Tutorial\grocery-bud> git init
+Initialized empty Git repository in D:/Tutorial/grocery-bud/.git/
+
