@@ -8,3 +8,43 @@ create a new one
 PS D:\Tutorial\grocery-bud> git init
 Initialized empty Git repository in D:/Tutorial/grocery-bud/.git/
 
+PS D:\Tutorial\grocery-bud> git add .
+warning: in the working copy of 'app.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'logo.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'styles.css', LF will be replaced by CRLF the next time Git touches it
+
+PS D:\Tutorial\grocery-bud> git config --global user.email "shahid_aqua@yahoo.com"
+PS D:\Tutorial\grocery-bud> git config --global user.name "shahid-iqbal82"
+PS D:\Tutorial\grocery-bud> git commit -m "first commit"
+ 6 files changed, 609 insertions(+)
+ create mode 100644 app.js
+ create mode 100644 git Hub settings.txt
+ create mode 100644 grocyer-bud URL.txt
+ create mode 100644 index.html
+ create mode 100644 logo.svg
+ create mode 100644 styles.css
+
+PS D:\Tutorial\grocery-bud> git remote add origin https://github.com/shahid-iqbal82/myfirst-grocery-hub.git>> git branch -M main
+>> git push -u origin main
+
+
+go to github and refresh the page and check that the files are uploaded 
+
+then go to netlify.com
+
+sites - and import it from github
+
+change site name 
+
+
+make changes and push to github sitting"
+
+go to source control option in visual studio code
+
+add comments
+
+then approved that
+
+3 dots - push 
+
